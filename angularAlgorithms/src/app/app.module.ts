@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { ArraysAndComponent } from './arrays-and/arrays-and.component';
+import { LinkedListsComponent } from './linked-lists/linked-lists.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ArraysAndComponent,
+    LinkedListsComponent
   ],
   imports: [
     BrowserModule
